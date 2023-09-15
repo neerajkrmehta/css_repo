@@ -1,0 +1,22 @@
+#navlist{
+   list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vh;
+    overflow-x: none;
+    background-color: rgb(201, 29, 29);
+}
+
+.navcontainer{
+width: 100vw;
+background-color: #8a8585;
+}
+#navlist{
+    
+}

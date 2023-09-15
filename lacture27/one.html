@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-color: #f3dcdcac;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .card{
+        width: 300px;
+        height: 550px;
+        border: 1px solid black;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .card img{
+        width: 100%;
+        height: 30%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+    .card h2{
+        margin: 10px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: large;
+    }
+    .card p{
+        margin: 10px;
+        padding: 10px;
+
+    }
+    .plan{
+        width: 270px;
+        height: 50px;
+        /* border: 1px solid black; */
+        border-radius: 5px;
+        background-color: white;
+
+    }
+    .card button{
+        margin: 40px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    }
+    .card a{
+        padding: 10px;
+    }
+    .plan{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="header.jpg" alt="">
+            <h2>Order Summary</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum corporis fuga inventore nihil? Natus repellendus esse eligendi laudantium sit?
+
+            </p>
+            <div class="plan">
+             <p>Anual Plane <br>
+             $99.9 Year</p>
+             <a href="#">Choose</a>
+            </div>
+            <button>Proced to payment</button>
+            <a href="#">cancel order</a>
+        </div>
+    </div>
+</body>
+</html>
